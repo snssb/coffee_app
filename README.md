@@ -1,16 +1,11 @@
-# coffee_shop_app
+Coffee Shop App
 
-A new Flutter project.
+Это пет-проект Coffee Shop App, созданный с использованием Flutter. Приложение реализует концепцию магазина кофе, где пользователи могут просматривать, заказывать и управлять кофе, а также осуществлять регистрацию и вход в систему.
 
-## Getting Started
+Дизайн и макет приложения были перенесены из Figma: https://www.figma.com/design/VaLNalJdp1rqPVd0p7ys04/COFFEE-SHOP-APP-(Community)?node-id=1-40&node-type=canvas
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clean architecture: Проект организован по принципам чистой архитектуры, что способствует разделению ответственности и улучшает поддерживаемость кода.
+Firebase: Приложение использует Firebase для аутентификации и хранения данных, что обеспечивает безопасность и надежность.
+BLoC: Паттерн BLoC используется для управления состоянием и логикой приложения, что позволяет разделять бизнес-логику и интерфейс.
+DI и GetIt: Внедрение зависимостей реализовано с помощью пакета GetIt, что упрощает управление зависимостями между классами и улучшает тестируемость.
+Shared Preferences: Используется для сохранения данных, таких как информация о пользователе, что позволяет сохранять сессии между запусками приложения.
